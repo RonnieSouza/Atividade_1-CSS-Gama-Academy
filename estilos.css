@@ -1,0 +1,43 @@
+.my-div {
+    border: 3px solid black;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.description1 {
+    text-align: center;
+    margin: 20px 20px;
+    font-size: 17px;
+}
+
+.preco {
+    font-weight: 600;
+    font-size: 30px;
+    color: blue;
+}
+
+.button-compra {
+    margin: 20px 20px;
+    font-size: 40px;
+    background-color: red;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 10px;
+    border: 4px solid black;
+}
+
+.product-name {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* PASSAR O MAUSE EM CIMA FICA A MÃOZINHA E MUDA A COR*/
+
+.button-compra:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
